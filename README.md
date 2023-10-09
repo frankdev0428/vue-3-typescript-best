@@ -1,308 +1,74 @@
-Contribution: 2015-10-07 20:00
+# Vue 3 Typescript example with Axios & Vue Router: Build CRUD App
+Build a Vue.js 3 Typescript example to consume REST APIs, display and modify data using Axios and Vue Router.
+- Each Tutorial has id, title, description, published status.
+- We can create, retrieve, update, delete Tutorials.
+- There is a Search bar for finding Tutorials by title.
 
-Contribution: 2015-10-07 20:01
+![vue-3-typescript-example-axios-tutorial](vue-3-typescript-example-axios-tutorial.png)
 
-Contribution: 2015-10-09 20:00
+For instruction, please visit:
+> [Vue 3 Typescript example with Axios: Build CRUD App](https://bezkoder.com/vue-3-typescript-axios/)
 
-Contribution: 2015-11-02 20:00
+More Practice:
+> [Vue 3 CRUD example with Axios & Vue Router](https://bezkoder.com/vue-3-crud/)
 
-Contribution: 2015-11-02 20:01
+> [Vue 2 CRUD App with Vue Router & Axios](https://bezkoder.com/vue-js-crud-app/)
 
-Contribution: 2015-11-30 20:00
+> [Vue Pagination with Axios and API example](https://bezkoder.com/vue-pagination-axios/)
 
-Contribution: 2015-11-30 20:01
+> [Vue.js JWT Authentication with Vuex and Vue Router](https://bezkoder.com/jwt-vue-vuex-authentication/)
 
-Contribution: 2016-01-09 20:00
+> [Vue File Upload example using Axios](https://bezkoder.com/vue-axios-file-upload/)
 
-Contribution: 2016-01-09 20:01
+Fullstack with Node.js Express:
+> [Vue.js + Node.js Express + MySQL](https://bezkoder.com/vue-js-node-js-express-mysql-crud-example/)
 
-Contribution: 2016-02-23 20:00
+> [Vue.js + Node.js Express + PostgreSQL](https://bezkoder.com/vue-node-express-postgresql/)
 
-Contribution: 2016-03-19 20:00
+> [Vue.js + Node.js Express + MongoDB](https://bezkoder.com/vue-node-express-mongodb-mevn-crud/)
 
-Contribution: 2016-03-19 20:01
+Fullstack with Spring Boot:
+> [Vue.js + Spring Boot](https://bezkoder.com/spring-boot-vue-js-crud-example/)
 
-Contribution: 2016-03-20 20:00
+> [Vue.js + Spring Boot + MongoDB](https://bezkoder.com/spring-boot-vue-mongodb/)
 
-Contribution: 2016-03-20 20:01
+Fullstack with Django:
+> [Vue.js + Django](https://bezkoder.com/django-vue-js-rest-framework/)
 
-Contribution: 2016-03-21 20:00
+Integration (run back-end & front-end on same server/port)
+> [Integrate Vue.js with Spring Boot](https://bezkoder.com/integrate-vue-spring-boot/)
 
-Contribution: 2016-03-21 20:01
+> [Integrate Vue App with Node.js Express](https://bezkoder.com/serve-vue-app-express/)
 
-Contribution: 2016-04-07 20:00
+Serverless with Firebase:
+> [Vue Firebase Realtime Database: CRUD example](https://bezkoder.com/vue-firebase-realtime-database/)
 
-Contribution: 2016-04-07 20:01
+> [Vue Firestore CRUD example](https://bezkoder.com/vue-firestore-crud/)
 
-Contribution: 2016-04-12 20:00
+## Project setup
+```
+npm install
+```
 
-Contribution: 2016-04-12 20:01
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-Contribution: 2016-05-22 20:00
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Contribution: 2016-05-22 20:01
+### Run your tests
+```
+npm run test
+```
 
-Contribution: 2016-06-16 20:00
+### Lints and fixes files
+```
+npm run lint
+```
 
-Contribution: 2016-06-16 20:01
-
-Contribution: 2016-06-21 20:00
-
-Contribution: 2016-08-04 20:00
-
-Contribution: 2016-09-13 20:00
-
-Contribution: 2016-09-13 20:01
-
-Contribution: 2016-10-03 20:00
-
-Contribution: 2016-10-03 20:01
-
-Contribution: 2016-10-10 20:00
-
-Contribution: 2016-10-10 20:01
-
-Contribution: 2016-11-20 20:00
-
-Contribution: 2017-02-05 20:00
-
-Contribution: 2017-03-02 20:00
-
-Contribution: 2017-04-18 20:00
-
-Contribution: 2017-04-18 20:01
-
-Contribution: 2017-05-18 20:00
-
-Contribution: 2017-05-18 20:01
-
-Contribution: 2017-05-25 20:00
-
-Contribution: 2017-05-25 20:01
-
-Contribution: 2017-05-31 20:00
-
-Contribution: 2017-05-31 20:01
-
-Contribution: 2017-06-10 20:00
-
-Contribution: 2017-06-21 20:00
-
-Contribution: 2017-06-21 20:01
-
-Contribution: 2017-07-08 20:00
-
-Contribution: 2017-07-08 20:01
-
-Contribution: 2017-07-17 20:00
-
-Contribution: 2017-10-22 20:00
-
-Contribution: 2017-10-22 20:01
-
-Contribution: 2018-04-12 20:00
-
-Contribution: 2018-04-12 20:01
-
-Contribution: 2018-05-07 20:00
-
-Contribution: 2018-06-02 20:00
-
-Contribution: 2018-06-14 20:00
-
-Contribution: 2018-06-20 20:00
-
-Contribution: 2018-06-20 20:01
-
-Contribution: 2018-06-30 20:00
-
-Contribution: 2018-07-24 20:00
-
-Contribution: 2018-07-24 20:01
-
-Contribution: 2018-07-31 20:00
-
-Contribution: 2018-07-31 20:01
-
-Contribution: 2018-08-08 20:00
-
-Contribution: 2018-08-08 20:01
-
-Contribution: 2018-10-15 20:00
-
-Contribution: 2018-10-30 20:00
-
-Contribution: 2018-10-30 20:01
-
-Contribution: 2019-01-01 20:00
-
-Contribution: 2019-01-04 20:00
-
-Contribution: 2019-01-11 20:00
-
-Contribution: 2019-01-29 20:00
-
-Contribution: 2019-03-20 20:00
-
-Contribution: 2019-03-20 20:01
-
-Contribution: 2019-04-29 20:00
-
-Contribution: 2019-06-12 20:00
-
-Contribution: 2019-06-12 20:01
-
-Contribution: 2019-06-28 20:00
-
-Contribution: 2019-06-28 20:01
-
-Contribution: 2019-07-01 20:00
-
-Contribution: 2019-07-01 20:01
-
-Contribution: 2019-07-04 20:00
-
-Contribution: 2019-07-14 20:00
-
-Contribution: 2019-07-14 20:01
-
-Contribution: 2019-08-22 20:00
-
-Contribution: 2019-11-07 20:00
-
-Contribution: 2019-11-18 20:00
-
-Contribution: 2019-11-18 20:01
-
-Contribution: 2019-11-20 20:00
-
-Contribution: 2019-11-20 20:01
-
-Contribution: 2019-11-27 20:00
-
-Contribution: 2019-11-30 20:00
-
-Contribution: 2019-11-30 20:01
-
-Contribution: 2020-01-26 20:00
-
-Contribution: 2020-01-26 20:01
-
-Contribution: 2020-02-17 20:00
-
-Contribution: 2020-07-30 20:00
-
-Contribution: 2020-08-16 20:00
-
-Contribution: 2020-09-06 20:00
-
-Contribution: 2020-09-06 20:01
-
-Contribution: 2020-10-25 20:00
-
-Contribution: 2020-10-25 20:01
-
-Contribution: 2020-12-10 20:00
-
-Contribution: 2021-01-17 20:00
-
-Contribution: 2021-01-25 20:00
-
-Contribution: 2021-01-25 20:01
-
-Contribution: 2021-02-11 20:00
-
-Contribution: 2021-02-11 20:01
-
-Contribution: 2021-03-05 20:00
-
-Contribution: 2021-03-12 20:00
-
-Contribution: 2021-03-12 20:01
-
-Contribution: 2021-03-20 20:00
-
-Contribution: 2021-03-22 20:00
-
-Contribution: 2021-04-01 20:00
-
-Contribution: 2021-04-01 20:01
-
-Contribution: 2021-04-02 20:00
-
-Contribution: 2021-05-17 20:00
-
-Contribution: 2021-06-02 20:00
-
-Contribution: 2021-06-10 20:00
-
-Contribution: 2021-06-10 20:01
-
-Contribution: 2021-06-17 20:00
-
-Contribution: 2021-07-31 20:00
-
-Contribution: 2021-07-31 20:01
-
-Contribution: 2022-01-12 20:00
-
-Contribution: 2022-01-12 20:01
-
-Contribution: 2022-02-09 20:00
-
-Contribution: 2022-04-15 20:00
-
-Contribution: 2022-04-24 20:00
-
-Contribution: 2022-05-09 20:00
-
-Contribution: 2022-05-09 20:01
-
-Contribution: 2022-05-26 20:00
-
-Contribution: 2022-05-28 20:00
-
-Contribution: 2022-07-01 20:00
-
-Contribution: 2022-09-06 20:00
-
-Contribution: 2022-11-22 20:00
-
-Contribution: 2022-12-08 20:00
-
-Contribution: 2022-12-22 20:00
-
-Contribution: 2023-01-14 20:00
-
-Contribution: 2023-01-14 20:01
-
-Contribution: 2023-02-26 20:00
-
-Contribution: 2023-02-26 20:01
-
-Contribution: 2023-03-23 20:00
-
-Contribution: 2023-03-23 20:01
-
-Contribution: 2023-05-20 20:00
-
-Contribution: 2023-05-20 20:01
-
-Contribution: 2023-06-11 20:00
-
-Contribution: 2023-06-11 20:01
-
-Contribution: 2023-06-20 20:00
-
-Contribution: 2023-07-10 20:00
-
-Contribution: 2023-08-10 20:00
-
-Contribution: 2023-08-17 20:00
-
-Contribution: 2023-08-21 20:00
-
-Contribution: 2023-10-06 20:00
-
-Contribution: 2023-10-06 20:01
-
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
